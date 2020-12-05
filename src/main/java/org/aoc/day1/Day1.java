@@ -5,7 +5,7 @@ import org.aoc.utils.InputReader;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class day1 {
+public class Day1 {
     public static void main(String[] args) {
         ArrayList<Integer> input = InputReader.convertFileContentToInt(InputReader.readInputFile("day1"));
 
