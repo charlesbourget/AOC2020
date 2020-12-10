@@ -33,4 +33,8 @@ public class InputReader {
         return input.stream().map(Integer::parseInt).collect(Collectors.toCollection(ArrayList::new));
     }
 
+    public static ArrayList<Long> convertFileContentToLong(ArrayList<String> input) {
+        return input.stream().map(Long::parseLong).collect(Collectors.toCollection(ArrayList::new));
+    }
+
 }
